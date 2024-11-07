@@ -29,11 +29,11 @@ const addSubmitListener = () => {
   }
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const name = document.getElementById('name').value;
-    const restaurant = document.getElementById('restaurant').value;
-    const image = document.getElementById('image').value;
-    const rating = document.getElementById('rating').value;
-    const comment = document.getElementById('comment').value;
+    const name = document.getElementById('new-name').value;
+    const restaurant = document.getElementById('new-restaurant').value;
+    const image = document.getElementById('new-image').value;
+    const rating = document.getElementById('new-rating').value;
+    const comment = document.getElementById('new-comment').value;
 
     const newRamen = {
       name,
